@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+    <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
+        android:id="@+id/loader"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/gameboy"
+        app:cfl_border="false"
+        app:cfl_progress="80"
+        app:cfl_wave_amplitude="0.04"
+        app:cfl_wave_color="@color/teal_700"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="188dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_marginTop="180dp" />
+
+    <TextView
+        android:id="@+id/textoSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/nintendo"
+        android:text="@string/textosplash"
+        android:textColor="@color/teal_700"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+</RelativeLayout>

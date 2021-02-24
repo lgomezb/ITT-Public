@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Open me</string>
+    <string name="text">Te quiero mucho</string>
+    <string name="text_two"> Como la consola</string>
+    <string name="text_three"> al cartucho</string>
+    <string name="nintendo_font">nintendo.ttf</string>
+    <string name="description">description</string>
+    <string name="textosplash">Inizialiting...</string>
+</resources>
