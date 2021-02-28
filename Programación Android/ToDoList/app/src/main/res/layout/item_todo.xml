@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@id/done"
+        style="@style/CodeFont"/>
+
+    <ImageButton
+        android:id="@+id/done"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/done"
+        android:layout_marginRight="5dp"
+        android:onClick="doneTask"
+        />
+
+    <ImageButton
+        android:id="@+id/modify"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toStartOf="@+id/done"
+        android:background="@drawable/edit"
+        android:layout_marginRight="3dp"
+        android:onClick="modifyTask"/>
+
+
+</RelativeLayout>
